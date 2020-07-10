@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter,Switch,Route} from 'react-router-dom'
-import Top from "./screens/Top"
+import React from "react";
+import Navbar from "./components/Navbar";
+import Works from "./components/Works";
+import './static/css/App.css'
+import Footer from './components/Footer'
 
-const App =()=>{
+const App = () => {
   return (
-  <div>
-    <BrowserRouter>
-      <Switch>
-        <Route
-          exact
-          path="/"
-          render={() => <Top/>}
-        />
-
-      </Switch>
-    </BrowserRouter>
-  </div>
-  )
-}
+    <div className="wrapper">
+      <Navbar />
+      <div className="worksContainer"><Works /></div>
+      <Footer />
+    </div>
+  );
+};
 
 export default App;

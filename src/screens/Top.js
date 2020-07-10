@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 import '../static/css/Top.scss'
 
-const Top = () => {
-   return ( <>hallo world</> );
+export class Top extends Component {
+   render() {
+      return (
+         <div>
+            
+         </div>
+      )
+   }
 }
- 
-export default Top;
+
+export default Top
+

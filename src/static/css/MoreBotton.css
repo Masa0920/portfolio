@@ -1,0 +1,26 @@
+.morebox {
+   text-align: center;
+   width: 100px;
+   margin: 0 auto;
+   border-radius: 10px;
+   padding: 10px;
+}
+.modalcontainer {
+   padding: 5px 10px;
+   width: 330px;
+   margin: 0 auto;
+   border-radius: 10px;
+   background: linear-gradient(skyblue, white);
+   position: absolute;
+   top: 100px;
+}
+.modalcontainer h2 {
+   display: inline-block;
+   font-size: 18px;
+   color: blue;
+   background:linear-gradient(transparent 60%, rgb(182, 110, 250) 0%);
+}
+.modalcontainer p {
+   font-size: 14px;
+   font-weight: 600;
+}

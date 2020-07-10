@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react'
+import '../static/css/Navbar.css'
 
-const Navbar  = () => {
-   return ( <></> );
+export class Navbar extends Component {
+   render() {
+      return (
+         <div className='futter'>
+            web制作勉強きろく
+         </div>
+      )
+   }
 }
- 
-export default Navbar;
+
+export default Navbar
