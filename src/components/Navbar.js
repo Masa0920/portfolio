@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react';
+// import Burger from './Burger';
 import '../static/css/Navbar.css'
 
-export class Navbar extends Component {
-   render() {
-      return (
+const Navbar = () => {
+   return (
+      <div >
          <div className='futter'>
-            web制作勉強きろく
+            勉強きろく
          </div>
-      )
+      </div>
+   )
    }
-}
 
 export default Navbar

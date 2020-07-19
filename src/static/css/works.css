@@ -1,7 +1,23 @@
-@media (min-width: 768px) {
+.works {
+   width: 80%;
+   margin: 30px auto;
+   text-align: center;
+   /* display: flex;
+   flex-wrap: wrap; */
+}
+.worksin {
+   display: flex;
+   flex-wrap: wrap;
+   z-index: 1;
+   margin: 0 auto;
+   justify-content: space-around;
+}
+.works > h1 {
+   display: inline-block;
+   background:linear-gradient(transparent 60%, rgb(209, 161, 253) 0%);
+}
+@media (max-width: 768px) {
    .works {
-      display: flex;
-      flex-wrap: wrap;
-      z-index: 1;
+      width: 100%;
    }
 }

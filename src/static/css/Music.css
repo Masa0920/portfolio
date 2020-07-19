@@ -1,0 +1,11 @@
+.animesContainer {
+   display: flex;
+   width: 80%;
+   margin: 10px auto;
+   justify-content: space-around;
+} 
+.Music{
+   border-radius: 10px;
+   border: solid 6px rgb(255, 0, 255);
+   font-weight: 600;
+}

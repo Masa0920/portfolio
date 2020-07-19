@@ -21,7 +21,6 @@ const Morebutton = (props) => {
    const handleClose = () => setOpen(false)
    
    const handleOpen = () => {
-      // console.log('open!')
       setOpen(true)
       setNumber(number + 1)
    }
@@ -62,7 +61,6 @@ const styles = {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      // border: '3px solid green',
       backgroundColor: 'rgba(0,0,0,0.5)'
    }
 }

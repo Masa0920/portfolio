@@ -1,0 +1,9 @@
+.count {
+   display: flex;
+   width: 10px;
+   margin: 10px auto;
+}
+.heart {
+   height: 20px;
+   margin: auto 10px;
+}

@@ -1,0 +1,12 @@
+.animesContainer {
+   display: flex;
+   width: 80%;
+   margin: 10px auto;
+   justify-content: space-around;
+} 
+.animesContainer .animes{
+   border-radius: 10px;
+   border: solid 10px yellow;
+   font-weight: 600;
+   width: 300px;
+}

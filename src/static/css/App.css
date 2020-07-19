@@ -1,3 +1,6 @@
+div {
+  text-align: center;
+}
 .main {
   z-index: 2;
 }
@@ -48,4 +51,19 @@
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
+}
+
+.animesApp {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+  justify-content: space-around;
+}
+.animes {
+  display: inline-block;
+  background:linear-gradient(transparent 60%, yellow 0%);
+}
+.music {
+  display: inline-block;
+  background:linear-gradient(transparent 60%, rgb(209, 161, 253) 0%);
 }
