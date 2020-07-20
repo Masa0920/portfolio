@@ -7,9 +7,11 @@ const Burger = () => {
 
    return (
       <Menu right width={'30%'}>
-         <a id="home" className="menu-item" href="/">TOP</a>
-         <a id="about" className="menu-item" href="/about">Profile</a>
-         <a id="contact" className="menu-item" href="/contact">Works</a>
+         <a id="home" className="menu-item" href="#top">TOP</a>
+         <a id="about" className="menu-item" href="#profile">Profile</a>
+         <a id="contact" className="menu-item" href="#works">Works</a>
+         <a id="contact" className="menu-item" href="#animes">Anime</a>
+         <a id="contact" className="menu-item" href="#music">Music</a>
          {/* <a className="menu-item--small" href="">Settings</a> */}
       </Menu>
    )

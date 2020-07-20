@@ -4,7 +4,7 @@ import stc from '../static/images/stc.jpg'
 
 export const Profile = () => {
    return (
-      <div className='profile'>
+      <div id='profile' className='profile'>
          <h1>\Profile/</h1>
          <p className='imgProfile'><img src={stc}/></p>
          <h2>osamu</h2>

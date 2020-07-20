@@ -5,7 +5,7 @@ import '../static/css/Music.css'
 export const Musics = () => {
    return (
       <div className='animesContainer'>
-         <div>
+         <div className='musicbox'> 
             <h2>1~3</h2>
             <div className='Music'>
                <MusicTabs
@@ -28,7 +28,7 @@ export const Musics = () => {
                   />  
             </div>
          </div>
-         <div>
+         <div className='musicbox'>
             <h2>3~6</h2>
             <div className='Music'>
                <MusicTabs
@@ -42,8 +42,8 @@ export const Musics = () => {
                   group2 = 'でんぱ組.inc'
                   ex2 = ''
                   name3 = 'Shiny Ray'
-                  group3 = 'Yurika'
-                  ex3 = ''
+                  group3 = 'YURiKA'
+                  ex3 = 'リトルウィッチアカデミアのopです。'
                   a1 = 'https://www.youtube.com/watch?v=m34DPnRUfMU'
                   a2 = 'https://www.youtube.com/watch?v=gqEnT3Ku06U'
                   a3 = 'https://www.youtube.com/watch?v=5mU66mU_Pw8'
@@ -51,7 +51,7 @@ export const Musics = () => {
                   />  
             </div>
          </div>
-         <div>
+         <div className='musicbox'>
             <h2>6~9</h2>
             <div className='Music'>
                <MusicTabs
@@ -59,14 +59,14 @@ export const Musics = () => {
                   title2='8' 
                   title3='9'
                   name1 = '星の帰り道'
-                  group1 = ''
+                  group1 = 'Gothic×Luck'
                   ex1 = ''
                   name2 = '地球最後の告白を'
-                  group2 = ''
-                  ex2 = ''
+                  group2 = '灯油'
+                  ex2 = 'ボカロ'
                   name3 = 'キズナミュージック'
-                  group3 = ''
-                  ex3 = ''
+                  group3 = ' Poppin’Party '
+                  ex3 = 'バンドリ2期のopです。'
                   a1 = 'https://www.youtube.com/watch?v=jW5LFrwmMVI'
                   a2 = 'https://www.youtube.com/watch?v=sp2W7Fz7nec'
                   a3 = 'https://www.youtube.com/watch?v=FU_KIdiGmHg'

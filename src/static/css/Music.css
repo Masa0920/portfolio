@@ -1,11 +1,18 @@
 .animesContainer {
    display: flex;
+   flex-wrap: wrap;
+   z-index: 1;
    width: 80%;
-   margin: 10px auto;
+   margin: 20px auto;
    justify-content: space-around;
 } 
 .Music{
    border-radius: 10px;
    border: solid 6px rgb(255, 0, 255);
    font-weight: 600;
+}
+.musicbox {
+   margin: 20px auto;
+   width: 300px;
+   min-width: 300px;
 }

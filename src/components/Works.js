@@ -10,7 +10,7 @@ import '../static/css/works.css'
 
 const Works = () => {
    return (
-      <div className='works'>
+      <div id='works' className='works'>
          <h1>\Works/</h1>
          <div className='worksin'>
             <WorksContent title='menu tabel' index='1' date='6/11~6/13' img={Menu} h2={"メニュー表作り"} desc={"html cssを使って何かを作るのが初めてだったので何とか作れたという感じでした。それだけに、作成後簡単にスタイリングする技を教えてもらった時の印象が大きかったです。"}/>

@@ -14,7 +14,7 @@ const TabContent = (props) => {
             height: '150px',
             objectFit: 'contain',
          }}
-         src={props.img}/>
+         src={props.img} alt=''/>
          <div
          style={{
             backgroundColor:'white',
@@ -41,7 +41,7 @@ const SimpleTabs = (props) => {
                display: "inline-block",
                padding: "10px 2px",
                background: props.color,
-               background: index === selectedIndex ? 'white' : props.color,
+               background: index === selectedIndex ? 'white' : 'yellow',
                //===だったら?の後ろじゃなかったら:の後ろ
                cursor:'pointer', 
                width: '100px',

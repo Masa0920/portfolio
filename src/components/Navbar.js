@@ -5,7 +5,7 @@ import '../static/css/Navbar.css'
 const Navbar = () => {
    return (
       <div >
-         <div className='futter'>
+         <div id='top' className='futter'>
             勉強きろく
          </div>
       </div>
