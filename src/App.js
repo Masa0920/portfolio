@@ -8,6 +8,7 @@ import Burger from './components/Burger'
 import AnimesContainer from "./components/Animes";
 import Profile from "./components/Profile";
 import Musics from "./components/Musics";
+import SimpleSlider from "./components/SimpleSlider";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Burger />
       <Navbar />
       {/* <GoodCount /> */}
+      <SimpleSlider/>
       <Profile />
       <div className="worksContainer"><Works /></div>
       <h1 id ='animes' className='animes'>\Anime/</h1>

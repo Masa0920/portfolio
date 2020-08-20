@@ -1,0 +1,11 @@
+.simpleslider {
+   margin-bottom: 20px;
+   /* background-color: black; */
+   width: 500px;
+   margin: 20px auto;
+}
+.simpleslider img {
+   width: 500px;
+   height: 300px;
+   object-fit: cover;
+}
