@@ -67,3 +67,7 @@ div {
   display: inline-block;
   background:linear-gradient(transparent 60%, rgb(209, 161, 253) 0%);
 }
+
+.loading {
+  margin-top: 150px;
+}
